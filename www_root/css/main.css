@@ -1,0 +1,602 @@
+
+main{
+    padding: 5px;
+}
+
+/* styling for home page */
+
+#home-body{
+    background-image: url(../img/home-bg.jpg);
+}
+/* https://www.google.com/search?sa=G&hl=en-CA&tbs=simg:CAQS_1wEJpNk25nPZStca8wELELCMpwgaOQo3CAQSExqKLqM5vRSUGaMz_1hjVFZU55j8aGvo_1vikS4FnGjuPivg0_1Ng_1vBaMnkj0eaFG0IAUwBAwLEI6u_1ggaCgoICAESBGXXs5MMCxCd7cEJGpQBChgKBWVtcHR52qWI9gMLCgkvYS9kcjFxd20KGwoIbGFuZ3VhZ2XapYj2AwsKCS9qLzJzaF95NAoiCg5jb2xvciBncmFkaWVudNqliPYDDAoKL20vMDQ3bmYzNQoYCgVibGFua9qliPYDCwoJL2EvZ2tzeDFoCh0KCm1vbm9jaHJvbWXapYj2AwsKCS9tLzAxbXdrZgw&sxsrf=APq-WBtwAVEB70jlNp96osLazeALwwX6iA:1646932572948&q=black+background+texture&tbm=isch&ved=2ahUKEwid2er3hbz2AhWXmHIEHSQUC0oQwg4oAHoECAEQMw */
+#home-header{
+    border-bottom: 4px solid burlywood;
+    width:100vw;
+    background-image: url(../img/home-bg.jpg);
+    margin-bottom: 25px;
+    padding: 10px;
+    /* background-color: rgb(195, 221, 213); */
+    position: fixed; 
+    z-index: 2;
+}
+
+
+#home-header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+}
+
+#primary-nav {
+     
+    margin-left:50px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 5px;
+}
+
+#primary-nav a {
+    padding: 10px;
+    color:white;
+
+}
+
+#image{
+    width: 100vw;
+    height:625px;
+}
+
+#primary-nav a:hover{
+    background-color: rgb(213, 241, 241);
+    color: rgb(179, 16, 78);
+}
+
+
+
+#home-serve{
+    width: 45%;
+    float:left;
+    font-family: sans-serif;
+    /* border: 1px solid rgb(209, 172, 159); */
+    /* background-image: url(../img/serve-home.png); */
+    /* background-color: rgb(233, 236, 211); */
+    color: rgb(240, 214, 71);
+    padding:7px;
+    margin:5px;
+}
+
+#home-serve a{
+    color:white;
+}
+
+#home-speciality{
+ width: 40%;
+  float:right;
+  margin-right:15px;
+  margin-top: 10px;
+  color: rgb(240, 214, 71);
+  font-family: sans-serif;
+  /* border: 1px solid rgb(209, 172, 159); */
+  /* background-color: beige; */
+  padding:7px;
+  margin:5px;
+}
+#about-us{
+    clear: both;
+    width:50%;
+    /* border: 1px solid rgb(209, 172, 159);
+    background-color: rgb(233, 236, 211); */
+    font-weight: 200;
+    font-family: sans-serif;
+    padding:7px;
+    margin:5px;
+    color: rgb(240, 214, 71);
+  
+}
+
+#about-us a{
+    color:white;
+   
+    
+}
+
+#milestones{
+   
+    width:50%;
+    font-family: sans-serif;
+    /* background-color: rgb(233, 236, 211); */
+    color: rgb(240, 214, 71);
+    padding:7px;
+    margin:5px;
+    
+
+}
+
+#milestones li{
+    color:white;
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwheniwork.com%2Fblog%2Fhow-to-motivate-your-restaurant-employees&psig=AOvVaw3qAzzQmGA-U58QS5P3JtFf&ust=1646503243092000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNiBkuCErfYCFQAAAAAdAAAAABAR */
+
+#home-main h2{
+    color: white;
+}
+
+#welcome-img{
+    height:300px;
+    width:80%;
+    position: relative;
+    bottom:300px;
+    margin-left: 120px;
+
+}
+
+
+#img2-home{
+    height:300px;
+    position: relative;
+    bottom: 430px;
+    left:900px;
+
+}
+#home-footer{
+    /* background-color: rgb(173, 107, 107); */
+    border: 3px solid gold;
+    color: white;
+    padding: 5px;
+    margin-top: -150px;
+}
+/*============================================================================ 
+ */
+/* styling for information page
+================================================================
+*/
+
+
+
+/* https://lh3.googleusercontent.com/jhZ2mQfLqYfI4m1JQuYglMvWktgIOE79XVISST0SpTeYuodQRZrT2uu4sMR7i4r3XB4J278=s128 */
+#info-header{
+
+    border-bottom: 4px solid rgb(44, 38, 30);
+    width:100vw;
+    
+    margin-bottom: 10px;
+    padding: 5px;
+    background-image: url("../img/main-back3.webp");
+
+
+}
+
+#primary-nav1{
+
+    margin-left:50px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 5px;
+
+}
+
+#primary-nav1 a{
+    padding: 10px;
+    color:rgb(12, 53, 39);
+
+}
+
+#info-para1{
+    font-style: oblique;
+    font-size: large;
+   
+}
+
+#info-para1 h2{
+    font-style: normal;
+}
+
+#info-para2 h2{
+    font-style: normal;
+}
+
+#info-para2 p{
+    font-style: oblique;
+    font-size: large;
+    margin-left:50px;
+}
+
+#image1977{
+
+    float:left;
+    height: 200px;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+#info-para3{
+    clear: both;
+    background-image: url("../img/our-policy.jpg");
+    color: white;
+    border: 2px solid gold;
+}
+
+#info-para3 p{
+    font-style: oblique;
+    font-size: large;
+  
+}
+
+
+#first-customer{
+    height:200px;
+    float:right;
+    border: 2px solid gold;
+   
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fstock-photos%2Fingredients.html&psig=AOvVaw14mIyVQA1y43kEQbxeDYHw&ust=1646520263083000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjUm5bErfYCFQAAAAAdAAAAABAJ */
+#info-para4{
+    clear:both;
+    background-image: url("../img/back-ingredients2.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    width: 30%;
+    color: white;
+    padding: 2px;
+    padding-right: 120px;
+    border: 2px solid gold;
+    margin-top: 30px;
+
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fblack-denim&psig=AOvVaw2l9FHFBgXaVV5PJoZ4QT-z&ust=1647017724321000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCbhqaBvPYCFQAAAAAdAAAAABAI */
+#info-para5{
+    margin-bottom: 30px;
+    width:45%;
+    position: relative;
+    bottom: 350px;
+    left:800px;
+    border: 2px solid gold;
+    font-size: large;
+    font-style: italic;
+    padding: 7px;
+    background-image: url("../img/our-policy.jpg");
+}
+
+#info-para5 h2{
+    color: white;
+}
+#info-para5 p{
+    color: white;
+}  
+
+#body2{
+    background-image: url("../img/main-back3.webp");
+    background-repeat: no-repeat;
+    background-size: 2500px;
+    
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fblack-denim&psig=AOvVaw2l9FHFBgXaVV5PJoZ4QT-z&ust=1647017724321000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCbhqaBvPYCFQAAAAAdAAAAABAI */
+#home-footer1{
+    background-image: url(../img/our-policy.jpg);
+    color: white;
+    margin-top: -150px;
+    padding: 7px;
+    border: 2px solid gold;
+}
+#main2{
+    margin-bottom: 10px;
+}
+
+/*===================================================================================================================== 
+  styling for menu page
+ /* ============================================================================================================================= */
+
+#menu-body{
+    background-image: url(../img/home-bg.jpg);
+
+}
+
+#main-menu h2{
+    display: flex;
+    justify-content: center;
+    color:gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.freejpg.com.ar%2Fstockphotos%2Fpremium%2F936991552%2Ffood-background&psig=AOvVaw1JywyBW3gIaB4nE_Nctr9t&ust=1647018477873000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDZ6IyEvPYCFQAAAAAdAAAAABAD */
+#Appetizers{
+    background-image: url(../img/appetizers3.jpg);
+    width:35%;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+    border: 4px solid gold;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fmexican-corn-chips-nachos-on-white-background-top-view-copy-space-tortilla-or-nacho-chips-for-snack-image356926671.html&psig=AOvVaw2zbOfzD1W8iOZ2oRAeTck3&ust=1646684580442000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD_86GosvYCFQAAAAAdAAAAABAa */
+#Nachos-salad{
+    background-image: url(../img/nachos.jpg);
+    width:35%;
+    height:200px;
+    font-size: large;
+    padding:5px;
+    margin-bottom: 40px;
+    border: 4px solid gold;
+    margin-left: 30px;
+}
+
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.colourbox.com%2Fvector%2Fsandwich-pattern-vector-13670029&psig=AOvVaw31nzwi3QqDkajdVwnKcj20&ust=1646684974772000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjy4uGpsvYCFQAAAAAdAAAAABAE */
+#sandwiches-pasta{
+  background-image: url(../img/sandwich2.jpg);
+  width: 35%;
+  height:250px;
+  font-size: large;
+  border: 4px solid gold;
+  margin-left: 30px;
+  
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-gratis%2Fpizza-suprema-tradicional-isolada-em-fundo-branco_21332598.htm&psig=AOvVaw2krz258pS2nhl6RiSRaY-9&ust=1647018542552000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjo4auEvPYCFQAAAAAdAAAAABAD */
+#Pizza{
+    background-image: url(../img/pizza5.webp);
+    width:35%;
+    height: 225px;
+    font-size: large;
+    border: 4px solid gold;
+    position: relative;
+    bottom: 700px;
+    left:900px;
+    padding: 5px;
+
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Falcoholic-background-drinks-white.html&psig=AOvVaw1gK9oZ24bDmNItPpW4N1m2&ust=1646687102327000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMi9goq4svYCFQAAAAAdAAAAABAF */
+#drinks{
+    background-image: url(../img/drinks.jpg);
+    width:35%;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    border: 4px solid gold;
+    position: relative;
+    bottom: 200px;
+   
+    margin-left: 30px;
+}
+
+#menu-header{
+    color: gold;
+    padding: 7px;
+    border-bottom: 3px solid gold;
+    padding-bottom: 15px;
+}
+
+
+
+#primary-nav3 a{
+    padding:5px;
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FDear-Craveable-101328762377584%2F&psig=AOvVaw1mtqLIbZRH9_K7lHkEKyOo&ust=1647018601714000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjR48eEvPYCFQAAAAAdAAAAABAD */
+#Deserts{
+    background-image: url(../img/deserts.webp);
+    width:32%;
+    text-align: center;
+    height: 200px;
+    padding: 5px;
+    font-size: large;
+    border: 4px solid gold;
+    position: relative;
+    bottom: 950px;
+    left:900px;
+
+}
+
+#menu-footer{
+    color: white;
+    padding: 10px;
+    margin-top: -150px;
+    border: 4px solid gold ;
+}
+/* 
+===================================================================================================================
+styling for contact page
+========================================================================================== */
+#contact-main{
+    color: white;
+}
+#contact-main h2{
+    color: gold;
+}
+#work-hours li{
+    padding: 13.3px;
+}
+
+#working-hours{
+    float: left;
+    height: 300px;
+    margin-right: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 2px solid gold;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#work-hours li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#work-hours{
+    display: flex;
+    margin:10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+#contact-main p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+#contact-main h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#feedback{
+    clear: both;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Review-slot{
+    background-color: rgb(177, 177, 177);
+}
+
+#hiring-img{
+   width: 50%;
+   height: 250px;
+}
+
+#job-form{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#job-form label {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#job-form input {
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#job-form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    color:rgb(12, 53, 39);
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 15%;
+
+}
+
+.flex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.flex #job-form {
+    width: 50%;
+}
+
+#contact-footer{
+    border: 3px solid gold;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#crew{
+    width:35%;
+    
+    position: relative;
+    bottom: 500px;
+    left:900px;
+  
+    
+    font-weight: 200;
+    font-family: sans-serif;
+    color:rgb(240, 214, 71);
+    /* border: 1px solid rgb(209, 172, 159); */
+    padding:7px;
+    margin:5px;
+
+}
+
+#crew a{
+    color:white;
+
+}
+/*==================================================================================
+styling for mobile view
+============================================================================
+ */
+@media screen and (max-width:640px){
+    #primary-nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #primary-nav1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #menu-body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #primary-nav3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #crew{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+/* ================================================================
+styling for tablet view
+==================================================== */
+@media screen and (max-width:960px) and (min-width:640px){
+    #primary-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #home-header h1 , #info-header h1 , #menu-header h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #primary-nav1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #primary-nav3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
